@@ -1,0 +1,30 @@
+.btn-technicalSupport {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+.btn-technicalSupport button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 314px;
+    height: 56px;
+    background: #A20000;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-technicalSupport button:after {
+    content: "";
+    width: 195px;
+    height: 1px;
+    background: #ffffff;
+    top: 37px;
+    position: absolute;
+
+}
