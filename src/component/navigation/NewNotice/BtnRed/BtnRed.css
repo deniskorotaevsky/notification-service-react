@@ -1,0 +1,13 @@
+
+.BtnRed button {
+    background: red;
+    color: #ffffff;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 7px 13px;
+    margin-left: 12px;
+    font-size: 8px;
+    line-height: 11px;
+}

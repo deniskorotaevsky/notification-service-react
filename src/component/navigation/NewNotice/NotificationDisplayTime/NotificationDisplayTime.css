@@ -1,0 +1,113 @@
+.section {
+    height: auto;
+    background-color: #fff;
+    width: auto;
+    font-size: 17px;
+}
+
+.section-box {
+    width: 66.3%;
+}
+
+.NotificationDisplayTime_box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 30px 20px;
+    width: auto;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.NotificationDisplayTime_box .form-check {
+    margin-bottom: 15px;
+}
+
+
+.NotificationDisplayTime_box form {
+    border-top: 1px solid #F5F6F7;
+    display: flex;
+    flex-direction: column;
+    flex: start;
+}
+
+.calendarComp {
+    width: auto;
+    max-width: 180px;
+}
+
+/* Custom Checkbox */
+.btn_close {
+    display: inline;
+}
+
+
+.NotificationDisplayTime_box .form-check {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+
+input:checked {
+    &+label::before {
+        content: '✔';
+        color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+label::before {
+    content: '';
+    border: 1px solid #EFEFEF;
+    height: 24px;
+    min-width: 24px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.date-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-block_calendar {
+    display: flex;
+    align-items: center;
+}
+
+.date-block_calendar p {
+    margin-right: 30px;
+}
+
+.date-block_clock {
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+    border: solid 1px #EFEFEF;
+    border-radius: 8px;
+    padding: 12px 36px;
+    line-height: 20px;
+
+}

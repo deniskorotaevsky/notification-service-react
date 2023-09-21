@@ -8,7 +8,7 @@
   flex-direction: column;
   background: #2F3B42;
   width: auto;
-  max-width: 460px;
+  width: 24%;
   height: 100vh;
 }
 
@@ -16,7 +16,7 @@
   margin-left: 32px;
 }
 
-img {
+.nav__link img {
   width: 24px;
   height: 24px;
   margin-right: 10px;
@@ -54,7 +54,6 @@ img {
 
 .outlet {
   margin: 0;
-  margin-left: 100px;
   width: auto;
 }
 
