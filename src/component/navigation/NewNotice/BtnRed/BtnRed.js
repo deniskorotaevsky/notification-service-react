@@ -4,7 +4,7 @@ const BtnRed = () => {
 
     return (
         <div className="BtnRed">
-            <button href="/">Первая кнопка</button>
+            <button>Первая кнопка</button>
         </div>
     );
 };

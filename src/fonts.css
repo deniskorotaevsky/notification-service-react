@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Circe';
+    src: local('Circe'), url(/src/fonts/Circe-light.ttf) format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: local('Circe'), url('/src/fonts/Circe-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: local('Circe'), url('/src/fonts/Circe-bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}

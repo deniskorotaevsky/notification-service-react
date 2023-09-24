@@ -3,6 +3,7 @@
     background-color: #fff;
     width: auto;
     font-size: 17px;
+    padding-left: 20px;
 }
 
 .section-box {
@@ -12,7 +13,7 @@
 .NotificationDisplayTime_box {
     display: flex;
     flex-direction: column;
-    margin: 20px 0 30px 20px;
+    margin: 20px 0 30px;
     width: auto;
 }
 

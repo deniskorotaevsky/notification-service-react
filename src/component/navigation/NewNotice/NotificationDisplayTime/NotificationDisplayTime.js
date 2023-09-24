@@ -65,13 +65,6 @@ const NotificationDisplayTime = () => {
                 </div>
 
             </div>
-
-
-
-
-
-
-
         </div>
     )
 }

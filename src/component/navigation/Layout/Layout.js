@@ -7,11 +7,12 @@ import { Link, Outlet } from "react-router-dom";
 import { BtnGoBack } from '../../BtnGoBack/BtnGoBack';
 import { Header } from '../../Header/Header';
 import { TechnicalSupport } from '../../BtnTechnicalSupport/BtnTechnicalSupport';
-import { BtnToSuggestAnIdea } from '../../BtnToSuggestAnIdea/BtnToSuggestAnIdea';
+import { Modal } from '../Modal/Modal';
 
 const Layout = () => {
     return (
         <div className='container'>
+            {/* <div className='sidebar'> */}
             <div className='navigate'>
                 <Header />
                 <BtnGoBack />
@@ -50,13 +51,15 @@ const Layout = () => {
                     </div>
                 </div >
                 <TechnicalSupport />
-                <div className='btn_toSuggestAnIdea'>
-                    <BtnToSuggestAnIdea />
+
+                <div className='modal-suggestAnIdea'>
+                    <Modal />
                 </div>
             </div>
             <div className='outlet'>
                 <Outlet />
             </div>
+            {/* </div> */}
         </div>
     );
 };

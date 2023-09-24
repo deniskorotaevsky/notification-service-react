@@ -1,21 +1,19 @@
 .header {
     margin-top: 25px;
     width: auto;
-    width: 100%;
-    background-color: #fff;
+    max-width: 460px;
+    height: auto;
+    color: #fff;
 }
 
 .header-box {
     display: flex;
     align-items: center;
-
-    justify-content: space-between;
     background: #191F22;
-    padding: 15px 33px;
+    padding: 3% 7.2%;    
 }
 
 .header-user {
-    color: #fff;
     display: flex;
     align-items: center;
 }
@@ -24,7 +22,6 @@
     display: flex;
     justify-content: center;
     width: 163px;
-    height: 65px;
 }
 
 .header-left img {
@@ -32,10 +29,7 @@
 }
 
 .header-right {
-    color: #fff;
     font-size: 14px;
-    width: 212px;
-    height: 80px;
     border-left: solid 1px #7E8082;
     padding-left: 10px;
 }

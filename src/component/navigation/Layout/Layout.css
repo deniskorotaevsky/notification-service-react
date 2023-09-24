@@ -2,18 +2,23 @@
   display: flex;
   color: black;
   position: relative;
-}
+  height: auto;
+ 
+} 
 .navigate {
   display: flex;
   flex-direction: column;
   background: #2F3B42;
   width: auto;
-  width: 24%;
-  height: 100vh;
+  min-width: 24%;
 }
 
 .nav {
   margin-left: 32px;
+}
+
+a {
+  color: #fff;
 }
 
 .nav__link img {
@@ -68,4 +73,15 @@
 
 .btn_toSuggestAnIdea button {
  margin: 0 auto;
+}
+
+.modal-suggestAnIdea {
+display: flex;
+align-items: center;
+}
+
+.modal-suggestAnIdea {
+  display: flex;
+  justify-content: center;
+  margin-top: 80.3%;
 }

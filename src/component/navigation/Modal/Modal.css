@@ -1,0 +1,28 @@
+.modal-container .openModalBtn {
+  position: relative;
+  width: 314px;
+  height: 57px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+.modal-container .openModalBtn::after {
+  content: '';
+  position: absolute;
+  background: rgb(255, 255, 255);
+  top: 65%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 41%;
+  height: 1px;
+}
+
+textarea {
+  resize: none;
+}
