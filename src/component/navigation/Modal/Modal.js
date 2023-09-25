@@ -12,6 +12,7 @@ function Modal() {
         onClick={() => {
           setModalOpen(true);
           document.body.style = 'overflow: hidden';
+          document.querySelector('.calendarPicker').style = "display: none"
         }}
       >
         Предложить идею

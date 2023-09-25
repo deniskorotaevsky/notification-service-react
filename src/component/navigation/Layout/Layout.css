@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  justify-content: space-between;
   color: black;
   position: relative;
   height: auto;
@@ -10,7 +11,7 @@
   flex-direction: column;
   background: #2F3B42;
   width: auto;
-  min-width: 24%;
+  min-width: 24vw;
 }
 
 .nav {
@@ -58,8 +59,7 @@ a {
 }
 
 .outlet {
-  margin: 0;
-  width: auto;
+  width: 100%;
 }
 
 .btn_toSuggestAnIdea {

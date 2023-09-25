@@ -26,7 +26,6 @@ h2 {
     margin-bottom: 15px;
 }
 
-
 .NotificationDisplayTime_box form {
     border-top: 1px solid #F5F6F7;
     display: flex;
@@ -43,7 +42,6 @@ h2 {
 .btn_close {
     display: inline;
 }
-
 
 .NotificationDisplayTime_box .form-check {
     display: flex;
@@ -98,7 +96,8 @@ label::before {
 
 .date-block_clock {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: space-between;
 }
 
 .row {
@@ -110,5 +109,4 @@ label::before {
     border-radius: 8px;
     padding: 12px 36px;
     line-height: 20px;
-
 }

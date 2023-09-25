@@ -1,5 +1,4 @@
-
-button {
+.BtnWhite button {
     background: none;
     color: #2F3B42;
     border: 1px solid #F5F5F5;
@@ -10,4 +9,5 @@ button {
     margin-left: 12px;
     font-size: 8px;
     line-height: 11px;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    width: auto;
+}

@@ -93,9 +93,7 @@ const NewNotice = () => {
                     </div>
                 </div>
             </div>
-
             <NotificationDisplayTime />
-
         </div>
     );
 };

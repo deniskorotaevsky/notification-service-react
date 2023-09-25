@@ -2,7 +2,7 @@ import { DateRangePicker } from "rsuite";
 
 const CalendarComp = () => {
     return (
-        <div>
+        <div className="calendarPicker">
             <DateRangePicker />
         </div>
     )

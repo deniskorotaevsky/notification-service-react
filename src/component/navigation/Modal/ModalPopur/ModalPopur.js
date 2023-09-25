@@ -9,6 +9,8 @@ function ModalPopur({ setOpenModal }) {
                     <button
                         onClick={() => {
                             setOpenModal(false);
+                            document.body.style = 'overflow: scroll';
+                            document.querySelector('.calendarPicker').style = "display: flex"
                         }}
                     >
                         ×
@@ -29,7 +31,10 @@ function ModalPopur({ setOpenModal }) {
                         type="text"
                         placeholder="Ваш email*"
                     />
+
                     <textarea name="text" placeholder="Небольшое описание"></textarea>
+
+
                     <div class="input__wrapper">
                         <input name="file" type="file" id="input__file" class="input input__file" />
                         <label for="input__file" class="input__file-button">
@@ -37,6 +42,7 @@ function ModalPopur({ setOpenModal }) {
                             <span class="input__file-button-text">Приложить документ/изображение</span>
                         </label>
                     </div>
+
                     <div className="form-check">
                         <input name="checkbox" id="labelCheckbox" className="input__checkbox  form-check-input" type="checkbox" />
                         <label for='labelCheckbox' className="labelCheckbox">Даю согласие с политикой обработки персональных данных</label>
@@ -45,6 +51,8 @@ function ModalPopur({ setOpenModal }) {
                         <button
                             onClick={() => {
                                 setOpenModal(false);
+                                document.body.style = 'overflow: scroll';
+                                document.querySelector('.calendarPicker').style = "display: flex"
                             }}
                             id="cancelBtn"
                         >

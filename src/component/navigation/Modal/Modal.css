@@ -1,3 +1,8 @@
+.modal-container {
+  display: flex;
+  z-index: 2;
+}
+
 .modal-container .openModalBtn {
   position: relative;
   width: 314px;
